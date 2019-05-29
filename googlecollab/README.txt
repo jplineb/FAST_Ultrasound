@@ -1,0 +1,1 @@
+This folder is for Google Collab Notebooks. Most of these notebooks are just itterations of the same experiments, however are left here for future reference.
