@@ -56,7 +56,7 @@ dflabelbox['Quadrant'] = dflabelbox.Label.apply(get_region)
 
 dflabelbox = dflabelbox.drop("Label", axis = 1)
 
-dfnewheaders = ["Created_By","Quality", "External_ID", "File_Name", "Frame_Number"]
+dfnewheaders = ["Created_By","Quality", "External_ID", "File_Name", "Frame_Number", "Quadrant"]
 
 dfnew = dflabelbox.reindex(columns = dfnewheaders)
 
